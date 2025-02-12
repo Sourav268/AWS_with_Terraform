@@ -13,7 +13,7 @@ The architecture consists of the following components:
 * Security Groups: Controls inbound and outbound traffic for the EC2 instances.
 * Network ACLs: Provides an additional layer of security.
 
-Infrastructure as Code (Terraform)
+Infrastructure as Code (Terraform)  
 This project is implemented using Terraform for Infrastructure as Code (IaC).  
 The Terraform configuration automates the provisioning of AWS resources.
 
