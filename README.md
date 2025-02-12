@@ -21,8 +21,8 @@ The Terraform configuration automates the provisioning of AWS resources.
 Ensure you have the following installed:
 
 Terraform (>= 1.0.0)  
-AWS CLI (configured with appropriate IAM credentials)
-Terraform Files
+AWS CLI (configured with appropriate IAM credentials)  
+Terraform Files  
 The following Terraform files define the infrastructure:
 
 * data.tf - Defines data sources used in the configuration.
