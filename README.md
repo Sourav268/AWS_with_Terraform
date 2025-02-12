@@ -22,6 +22,7 @@ Ensure you have the following installed:
 
 Terraform (>= 1.0.0)  
 AWS CLI (configured with appropriate IAM credentials)  
+
 Terraform Files  
 The following Terraform files define the infrastructure:
 
