@@ -5,13 +5,14 @@ This project provisions a fully automated and scalable three-tier architecture o
 ## Architecture 
 The architecture consists of the following components:
 
-VPC: A Virtual Private Cloud for network isolation.
-Public Subnet: Contains a publicly accessible EC2 instance.
-Private Subnet: Contains an EC2 instance that does not have direct internet access.
-Internet Gateway: Allows outbound internet access from the public subnet.
-Route Table: Routes traffic from the public subnet to the internet and enables private subnet communication.
-Security Groups: Controls inbound and outbound traffic for the EC2 instances.
-Network ACLs: Provides an additional layer of security.
+* VPC: A Virtual Private Cloud for network isolation.
+* Public Subnet: Contains a publicly accessible EC2 instance.
+* Private Subnet: Contains an EC2 instance that does not have direct internet access.
+* Internet Gateway: Allows outbound internet access from the public subnet.
+* Route Table: Routes traffic from the public subnet to the internet and enables private subnet communication.
+* Security Groups: Controls inbound and outbound traffic for the EC2 instances.
+* Network ACLs: Provides an additional layer of security.
+
 Infrastructure as Code (Terraform)
 This project is implemented using Terraform for Infrastructure as Code (IaC). The Terraform configuration automates the provisioning of AWS resources.
 
