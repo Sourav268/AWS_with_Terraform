@@ -14,12 +14,13 @@ The architecture consists of the following components:
 * Network ACLs: Provides an additional layer of security.
 
 Infrastructure as Code (Terraform)
-This project is implemented using Terraform for Infrastructure as Code (IaC). The Terraform configuration automates the provisioning of AWS resources.
+This project is implemented using Terraform for Infrastructure as Code (IaC).  
+The Terraform configuration automates the provisioning of AWS resources.
 
 ## Prerequisites
 Ensure you have the following installed:
 
-Terraform (>= 1.0.0)
+Terraform (>= 1.0.0)  
 AWS CLI (configured with appropriate IAM credentials)
 Terraform Files
 The following Terraform files define the infrastructure:
@@ -34,7 +35,7 @@ The following Terraform files define the infrastructure:
 * rds.tf - Configures the RDS database instance.
 * variables.tf - Contains configurable variables.
 
-Deployment Steps
+Deployment Steps  
 Initialize Terraform:
 ```bash
 terraform init
