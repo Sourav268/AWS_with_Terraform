@@ -37,6 +37,7 @@ The following Terraform files define the infrastructure:
 * variables.tf - Contains configurable variables.
 
 Deployment Steps  
+
 Initialize Terraform:
 ```bash
 terraform init
@@ -51,7 +52,7 @@ terraform apply -auto-approve
 ```
 Verify Resources:
 Check the AWS Management Console.
-Use aws ec2 describe-instances to verify instance creation.
+Use aws ec2 describe-instances to verify instance creation.  
 Destroying the Infrastructure
 To delete all resources:
 ```bash
