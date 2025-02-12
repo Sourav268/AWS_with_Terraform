@@ -23,15 +23,16 @@ AWS CLI (configured with appropriate IAM credentials)
 Terraform Files
 The following Terraform files define the infrastructure:
 
-data.tf - Defines data sources used in the configuration.
-ec2.tf - Configures EC2 instances in the architecture.
-local.tf - Defines local values and reusable variables.
-main.tf - Defines the core VPC, subnets, and networking components.
-network.tf - Configures networking resources, including subnets and route tables.
-output.tf - Specifies the output values for key resources.
-providers.tf - Specifies the required Terraform providers.
-rds.tf - Configures the RDS database instance.
-variables.tf - Contains configurable variables.
+*data.tf - Defines data sources used in the configuration.
+*ec2.tf - Configures EC2 instances in the architecture.
+*local.tf - Defines local values and reusable variables.
+*main.tf - Defines the core VPC, subnets, and networking components.
+*network.tf - Configures networking resources, including subnets and route tables.
+*output.tf - Specifies the output values for key resources.
+*providers.tf - Specifies the required Terraform providers.
+*rds.tf - Configures the RDS database instance.
+*variables.tf - Contains configurable variables.
+
 Deployment Steps
 Initialize Terraform:
 ```bash
