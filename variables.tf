@@ -8,7 +8,7 @@ variable "prefix" {
 }
 
 variable "project" {
-  default = "devops-101"
+  default = "Terraform"
 }
 
 variable "contact" {
